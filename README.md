@@ -3,7 +3,7 @@
 Classifying AD patients and normal controls from brain images
 
 [![license](https://img.shields.io/github/license/george-chou/AD-prediction.svg)](https://github.com/george-chou/AD-prediction/blob/master/LICENSE)
-![Python application](https://github.com/george-chou/AD-prediction/workflows/Python%20application/badge.svg)
+[![Python application](https://github.com/george-chou/AD-prediction/workflows/Python%20application/badge.svg)](https://github.com/george-chou/AD-prediction/actions)
 [![Github All Releases](https://img.shields.io/github/downloads-pre/george-chou/AD-prediction/v1.1/total)](https://github.com/george-chou/AD-prediction/releases)
 
 # Aims and Background
