@@ -24,7 +24,7 @@ data_count = len(raw_data)
 tuple_len = len(raw_data[0])
 
 for i in raw_data:
-    temp = norm([int(j) for j in i[0:tuple_len - 2]])
+    temp = norm([int(j) for j in i[1:tuple_len - 2]])
     x_train.append(temp)
     if i[tuple_len - 1] == "yes":
         y_train.append(1)
@@ -43,7 +43,7 @@ data_count = len(raw_data)
 tuple_len = len(raw_data[0])
 
 for i in raw_data:
-    temp = norm([int(j) for j in i[0:tuple_len - 1]])
+    temp = norm([int(j) for j in i[1:tuple_len - 1]])
     x_test.append(temp)
 
 #predict
