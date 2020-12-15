@@ -141,7 +141,7 @@ After this extraction process, we can receive the brain image. However, some res
 
 <div align=center>
 <img width="605" src="https://george-chou.github.io/covers/AD/f4.png"/><br>
-<b>Figure 4: Initial extracted brain and head</b>
+<b>Figure 3: Initial extracted brain and head</b>
 </div>
 
 This extraction result is not satisfied enough; this is because of the incorrect setting of the centre position of the brain. Therefore, we need to figure this issue out, and we tried two different strategies: 
@@ -153,7 +153,7 @@ We tried these two methods together and made the skull stripping results more ac
 
 <div align=center>
 <img width="605" src="https://george-chou.github.io/covers/AD/f5.png"/><br>
-<b>Figure 5: Contrast of initial result (green) and improved result (red)</b>
+<b>Figure 4: Contrast of initial result (green) and improved result (red)</b>
 </div>
 
 Besides, we run a similar code to finish the skull stripping process of testing data. Then we use the shell file mentioned improving the stripping results. Overall, we finish the first step of skull stripping.
@@ -219,7 +219,7 @@ Then we use Fsleyes to see the segmentation result, which shows as follow:
 
 <div align=center>
 <img width="605" src="https://george-chou.github.io/covers/AD/f7.png"/><br>
-<b>Figure 7: Segmented Grey matter (yellow)</b>
+<b>Figure 5: Segmented Grey matter (yellow)</b>
 </div>
 
 Also, we run a similar code to finish the grey matter segmentation process of testing data. Overall, we finished the second step of the grey matter segmentation.
@@ -323,7 +323,7 @@ After these four steps, we can receive the transformed AAL atlas overlaid on eac
 
 <div align=center>
 <img width="605" src="https://george-chou.github.io/covers/AD/f9.png"/><br>
-<b>Figure 9: Transformed AAL atlas example</b>
+<b>Figure 6: Transformed AAL atlas example</b>
 </div>
 
 Besides, we do a quite similar operation to the test dataset. Overall, we received 50 transformed AAL atlas during this step.
@@ -428,7 +428,7 @@ After this code, we can receive one CSV file. In this CSV file, each of 40 train
 
 <div align=center>
 <img width="80%" src="https://george-chou.github.io/covers/AD/f11.png"/><br>
-<b>Figure 11: The output CSV file</b>
+<b>Figure 7: The output CSV file</b>
 </div>
 
 The exact name, voxel and label information shows in the appendix CSV file. It concludes the information of both training and testing datasets. Overall, we generated the required CSV file in this section, which is to finish the final SVM section.
